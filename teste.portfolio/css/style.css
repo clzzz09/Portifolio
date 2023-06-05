@@ -1,0 +1,16 @@
+body,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+}
+
+.body-sidebar {
+    z-index:3;width:300px
+}
+
+.w3-main{
+    margin-left: 300px;
+}
+
+.skills{
+    width: 95%;
+}
