@@ -14,3 +14,64 @@ body,h2,h3,h4,h5,h6 {
 .skills{
     width: 95%;
 }
+
+.grid-f{
+    --bs-rows: 3; --bs-columns: 3;
+}
+.gridp{
+    border-radius: 5px;
+    border-style: solid;
+    width: 35vw;
+    height: 15vh;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.gridp p{
+    font-size: 1vw;
+    line-height: 1;
+    text-align: center;
+}
+
+.g-start-2{
+
+}
+
+.grid-item{
+    flex: 1 0 33.33%;
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border: 3px solid white;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.grid-item::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 10px 20px 10px;
+    border-color: transparent transparent #000 transparent;
+  }
+
+  .grid-item p {
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+.formacao{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .txp{
+    font-size: smaller;
+} */

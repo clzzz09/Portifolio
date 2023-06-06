@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
-<title>CL PORTIFOLIO</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="css/style.css">
-<script src="script.js"></script>
-
+  <head>
+  <title>CL PORTIFOLIO</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
 <body class="w3-black w3-content" style="max-width:1600px">
 
   <!-- SIDEBAR -->
@@ -22,20 +24,17 @@
       <h4><b>PORTFOLIO</b></h4>
     </div>
     <div class="w3-bar-block">
-      <a href="#portfolio" onclick="sb_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
-          class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a>
+      <a href="#portfolio" onclick="sb_close()" class="w3-bar-item w3-button w3-padding"><i
+          class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
       <a href="#about" onclick="sb_close()" class="w3-bar-item w3-button w3-padding"><i
           class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a>
       <a href="#contact" onclick="sb_close()" class="w3-bar-item w3-button w3-padding"><i
           class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
     </div>
     <div class="w3-panel w3-large">
-      <i class="fa fa-facebook-official w3-hover-opacity"></i>
       <i class="fa fa-instagram w3-hover-opacity"></i>
       <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
       <i class="fa fa-twitter w3-hover-opacity"></i>
-      <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
   </nav>
 
@@ -94,8 +93,8 @@
               <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
               <p>caualucca30@gmail.com</p>
             </div>
-            <div class="w3-third w3-teal">
-              <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+            <div class="w3-third w3-teal w3-text-light-grey">
+              <p><i class="fa fa-map-marker w3-xxlarge w3-text-green"></i></p>
               <p>Juiz de Fora, MG</p>
             </div>
             <div class="w3-third w3-dark-grey">
@@ -121,6 +120,29 @@
                 class="fa fa-paper-plane w3-margin-right"></i>Enviar Mensagem</button>
           </form>
         </div>
+
+        <hr>
+
+        <!-- FORMAÇÃO -->
+        <div class="formacao" id="formacao">
+          <h4><b>FORMAÇÃO</b></h4>
+          <div class="grid-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae temporibus id, quas perferendis nisi cumque voluptate nobis iusto laborum nesciunt voluptatem non. Odio pariatur dolorum molestiae laboriosam! Molestiae, et reprehenderit.</p>
+          </div>
+          <div class="grid-item">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt ipsum quibusdam quidem repellendus doloribus excepturi voluptatum aspernatur vel esse ducimus reprehenderit, dignissimos, dolores fuga ab corporis maiores. Harum, adipisci.</p>
+          </div>
+          <div class="grid-item">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime consectetur eos architecto odio quo id, et nulla. Minus provident fuga nostrum, quasi magni atque. Officiis delectus ipsum error debitis nihil.</p>
+          </div>
+          <!-- <div class="grid-f text-center">
+            <div class="gridp"><h5>2022</h5><p>Após 3 anos de estudos na Escola Estadual Duque de Caxias formei no ensino <br> médio com exito e grande aprendizado atráves de muito estudo e apoio de meus familiares, amigos e mentores.</p> </div>
+            <div class="g-start-2" style="grid-row: 2">Auto-column</div>
+            <div class="g-start-3" style="grid-row: 3">Auto-column</div>
+          </div> -->
+        </div>
+
+        <hr>
 
         <!-- RODAPÉ -->
         <footer class="w3-container w3-padding-32 w3-dark-grey">
@@ -170,12 +192,13 @@
           </div>
         </footer>
 
-        <div class="w3-black w3-center w3-padding-24">Powered by <a href="index.html" title="" target="_blank"
+        <div class="w3-blue w3-center w3-padding-24">Powered by <a href="index.html" title="" target="_blank"
             class="w3-hover-opacity">Cauã Lucca</a></div>
 
         <!-- FIM DO CCONTEÚDO DA PÁGINA -->
       </div>
 
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
