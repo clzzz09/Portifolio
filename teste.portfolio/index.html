@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
   <title>CL PORTIFOLIO</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,9 +9,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
-  <script src="script.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/95aa7c2d52.js" crossorigin="anonymous"></script>
+</head>
+
 <body class="w3-black w3-content" style="max-width:1600px">
 
   <!-- SIDEBAR -->
@@ -20,34 +23,46 @@
         title="close menu">
         <i class="fa fa-remove"></i>
       </a>
-      <img src="img/IMG_20220326_215647_742.jpg" style="width:45%;" class="w3-round"><br><br>
-      <h4><b>PORTFOLIO</b></h4>
+      <img src="img/WhatsApp Image 2023-06-07 at 15.58.41.jpeg" style="width:55%;" class="w3-round"><br><br>
+      <h4><b>MENU</b></h4>
     </div>
     <div class="w3-bar-block">
-      <a href="#portfolio" onclick="sb_close()" class="w3-bar-item w3-button w3-padding"><i
-          class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a>
-      <a href="#about" onclick="sb_close()" class="w3-bar-item w3-button w3-padding"><i
+      <a href="#home" class="w3-bar-item w3-button w3-padding"><i
+          class="fa-sharp fa-solid fa-house fa-fw w3-margin-right"></i>HOME</a>
+      <a href="#about" class="w3-bar-item w3-button w3-padding"><i
           class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a>
-      <a href="#contact" onclick="sb_close()" class="w3-bar-item w3-button w3-padding"><i
+      <a href="#contact" class="w3-bar-item w3-button w3-padding"><i
           class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+      <a href="#formacao" class="w3-bar-item w3-button w3-padding"><i
+          class="fa-solid fa-square-poll-horizontal fa-fw w3-margin-right"></i>FORMAÇÃO</a>
+      <a href="#atuacao" class="w3-bar-item w3-button w3-padding"><i
+          class="fa-solid fa-clipboard fa-fw w3-margin-right"></i>ATUAÇÃO.PROF</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-padding"><i
+          class="fa-solid fa-chalkboard fa-fw w3-margin-right"></i>PORTFOLIO</a>
     </div>
-    <div class="w3-panel w3-large">
-      <i class="fa fa-instagram w3-hover-opacity"></i>
-      <i class="fa fa-snapchat w3-hover-opacity"></i>
-      <i class="fa fa-twitter w3-hover-opacity"></i>
+
+    <div class="painel">
+      <div class="w3-panel w3-large">
+        <a href="https://www.instagram.com/cl.alves09/" target="_blank" class="painel">
+          <i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://github.com/clzzz09" target="_blank" class="painel">
+          <i class="fa-brands fa-github"></i></a>
+        <a href="https://www.facebook.com/caua.lucca.52" target="_blank" class="painel">
+          <i class="fa fa-facebook fa-github"></i></a>
+      </div>
     </div>
   </nav>
 
   <!-- EFEITO DE SOBREPOSIÇÃO AO ABRIR A BARRA LATERAL EM TELAS PEQUENAS -->
-  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="sb_close()" style="cursor:pointer"
-    title="close side menu" id="myOverlay"></div>
+  <div class="w3-hide-large w3-animate-opacity" onclick="sb_close()" style="cursor:pointer" title="close side menu"
+    id="myOverlay"></div>
 
   <!-- !CONTEÚDO DA PÁGINA! -->
   <div class="w3-main">
 
     <!-- CABEÇALHO -->
-    <header id="portfolio">
-      <a href="#"><img src="img/IMG_20220326_215647_742.jpg" style="width:65px;"
+    <header id="home">
+      <a href="#"><img src="img/WhatsApp Image 2023-06-07 at 15.41.44.jpeg" style="width:65px;"
           class="w3-circle w3-right w3-margin w3-hide-large "></a>
       <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-white" onclick="sb_open()"><i
           class="fa fa-bars"></i></span>
@@ -57,30 +72,55 @@
     </header>
 
     <!-- IMAGENS SOBRE MIM -->
-    <div class="w3-row-padding w3-padding-16" id="about">
-      <div class="w3-col m6">
-        <!-- <img src="/w3images/avatar_g.jpg" alt="Me" style="width:100%"> -->
-      </div>
+    <div class="w3-row-padding w3-padding-32" id="about">
 
       <div class="w3-container w3-padding-large" style="margin-bottom:32px">
         <h4><b>Sobre Mim</b></h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis nulla quaerat est ipsam enim qui numquam
-          voluptate consequatur! Deserunt, veniam? Quia sed tempore commodi officia fuga error sapiente atque earum?</p>
+        <p>Me chamo Cauã Lucca, tenho 18 anos e atualmente moro em Juiz de Fora, Minas Gerais. Desde cedo, despertei um
+          grande interesse pelo mundo da tecnologia. A medida que fui crescendo, minha curiosidade e paixão por essa
+          área só aumentaram.
+
+          Sempre fui fascinado pelas infinitas possibilidades que a tecnologia oferece e pela forma como ela pode
+          impactar positivamente a vida das pessoas. Desde o momento em que tive meu primeiro contato com um computador,
+          fiquei maravilhado com a forma como a tecnologia pode facilitar tarefas, conectar pessoas e transformar a
+          maneira como vivemos.
+
+          Acompanhar o avanço tecnológico constante me motivou a explorar e aprender mais sobre programação,
+          desenvolvimento de software e outras áreas relacionadas. Cada nova descoberta me instiga a aprofundar meus
+          conhecimentos e buscar soluções inovadoras para desafios do mundo atual.
+
+          Além disso, tenho me dedicado a estudar as tendências e os conceitos mais recentes, como inteligência
+          artificial, aprendizado de máquina e Internet das Coisas, que estão moldando o futuro da tecnologia. Estou
+          animado para fazer parte desse cenário em constante evolução e contribuir de forma significativa para a
+          sociedade através da minha dedicação e conhecimento.
+
+          Estou determinado a transformar minha paixão em uma carreira promissora, na qual possa utilizar minha
+          criatividade, habilidades técnicas e pensamento analítico para desenvolver soluções inovadoras que tornem a
+          vida das pessoas mais fácil e eficiente.
+
+          A tecnologia é um campo empolgante e desafiador, e estou comprometido em aprender continuamente, enfrentar
+          novos desafios e colaborar com outros profissionais para impulsionar o progresso e criar um impacto positivo
+          no mundo. Estou ansioso para explorar as infinitas oportunidades que a tecnologia oferece e construir um
+          futuro promissor nesse fascinante universo.</p>
+
         <hr>
 
         <h4>Skills</h4>
         <!-- SKILLS -->
         <p>HTML</p>
         <div class="w3-white">
-          <div class="skills w3-container w3-red w3-padding w3-center"><i class="fa-brands fa-html5" style="color: #ec5809;"></i>95%</div>
+          <div class="skills w3-container w3-red w3-padding w3-center"><i class="fa-brands fa-html5"
+              style="color: black;"></i>95%</div>
         </div>
         <p>CSS</p>
         <div class="w3-white">
-          <div class="w3-container w3-blue w3-padding w3-center" style="width:80%">80%</div>
+          <div class="w3-container w3-blue w3-padding w3-center" style="width:80%"><i class="fa-brands fa-css3-alt"
+              style="color: black"></i>80%</div>
         </div>
         <p>JAVASCRIPT</p>
         <div class="w3-white">
-          <div class="w3-container w3-yellow w3-padding w3-center" style="width:15%">15%</div>
+          <div class="w3-container w3-yellow w3-padding w3-center" style="width:15%"><i class="fa-brands fa-square-js"
+              style="color: black;"></i>15%</div>
         </div>
 
         <hr>
@@ -127,78 +167,94 @@
         <div class="formacao" id="formacao">
           <h4><b>FORMAÇÃO</b></h4>
           <div class="grid-item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae temporibus id, quas perferendis nisi cumque voluptate nobis iusto laborum nesciunt voluptatem non. Odio pariatur dolorum molestiae laboriosam! Molestiae, et reprehenderit.</p>
+            <h5 class="text1"> <b> 2022</b></h5>
+            <p>Atráves de muito esforço e dedicação, conclui com êxito o ensino médio em 2022. Com muito apoio de amigos, família e mentores, que me ajudaram a melhorar não só como aluno mas também como pessoa.  </p>
           </div>
           <div class="grid-item">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique sunt ipsum quibusdam quidem repellendus doloribus excepturi voluptatum aspernatur vel esse ducimus reprehenderit, dignissimos, dolores fuga ab corporis maiores. Harum, adipisci.</p>
+            <h5 class="text2"><b> 2023</b></h5>
+            <p>Inicie um novo ciclo no início deste ano, me matriculei na Faculdade Metodista Grambery. Espero cumprir minhas metas e conquistar cada vez mais o mundo da tecnologia.</p>
           </div>
           <div class="grid-item">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime consectetur eos architecto odio quo id, et nulla. Minus provident fuga nostrum, quasi magni atque. Officiis delectus ipsum error debitis nihil.</p>
+            <h5 class="text3">2024</h5>
+            <p>EM BREVE ...</p>
           </div>
-          <!-- <div class="grid-f text-center">
-            <div class="gridp"><h5>2022</h5><p>Após 3 anos de estudos na Escola Estadual Duque de Caxias formei no ensino <br> médio com exito e grande aprendizado atráves de muito estudo e apoio de meus familiares, amigos e mentores.</p> </div>
-            <div class="g-start-2" style="grid-row: 2">Auto-column</div>
-            <div class="g-start-3" style="grid-row: 3">Auto-column</div>
-          </div> -->
         </div>
 
         <hr>
 
-        <!-- RODAPÉ -->
-        <footer class="w3-container w3-padding-32 w3-dark-grey">
-          <div class="w3-row-padding">
-            <div class="w3-third">
-              <h3>FOOTER</h3>
-              <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
-                congue gravida diam non fringilla.</p>
-            </div>
+        <!-- ATUAÇÃO PROFISSIONAL -->
+        <div class="w3-container w3-padding-large" style="margin-bottom:32px" id="atuacao">
+          <h4><b>ATUAÇÃO PROFISSIONAL</b></h4>
+          <h6><b>NÃO POSSUO NENHUMA ATUAÇÃO PROFISSIONAL NO MOMENTO...</b></h6>
 
-            <div class="w3-third">
-              <h3>BLOG POSTS</h3>
-              <ul class="w3-ul w3-hoverable">
-                <li class="w3-padding-16">
-                  <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
-                  <span class="w3-large">Lorem</span><br>
-                  <span>Sed mattis nunc</span>
-                </li>
-                <li class="w3-padding-16">
-                  <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
-                  <span class="w3-large">Ipsum</span><br>
-                  <span>Praes tinci sed</span>
-                </li>
-              </ul>
-            </div>
+        
+        </div>
+        <hr>
 
-            <div class="w3-third">
-              <h3>POPULAR TAGS</h3>
-              <p>
-                <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
-                <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
-                <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
-                <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
-                <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span
-                  class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
-              </p>
-            </div>
+        <!-- IMAGENS SOBRE MIM -->
+    <div class="w3-row-padding w3-padding-32" id="portfolio">
 
-          </div>
-        </footer>
-
-        <div class="w3-blue w3-center w3-padding-24">Powered by <a href="index.html" title="" target="_blank"
-            class="w3-hover-opacity">Cauã Lucca</a></div>
-
-        <!-- FIM DO CCONTEÚDO DA PÁGINA -->
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+        <h4><b>PORTFOLIO</b></h4>
+        
+        <!-- FIM DO CONTEÚDO DA PÁGINA -->
       </div>
 
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+      <!-- RODAPÉ
+      <footer class="w3-container w3-padding-32 w3-dark-grey">
+        <div class="w3-row-padding">
+          <div class="w3-third">
+            <h3>FOOTER</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+              congue gravida diam non fringilla.</p>
+          </div>
+
+          <div class="w3-third">
+            <h3>BLOG POSTS</h3>
+            <ul class="w3-ul w3-hoverable">
+              <li class="w3-padding-16">
+                <img src="" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Lorem</span><br>
+                <span>Sed mattis nunc</span>
+              </li>
+              <li class="w3-padding-16">
+                <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+                <span class="w3-large">Ipsum</span><br>
+                <span>Praes tinci sed</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="w3-third">
+            <h3>POPULAR TAGS</h3>
+            <p>
+              <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">New York</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">London</span>
+              <span class="w3-tag w3-grey w3-small w3-margin-bottom">IKEA</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">NORWAY</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+              <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+              <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+              <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sports</span> <span
+                class="w3-tag w3-grey w3-small w3-margin-bottom">Games</span>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="w3-blue w3-center w3-padding-32">Powered by <a href="index.html" title="" target="_blank"
+          class="w3-hover-opacity">Cauã Lucca</a></div>
+      </footer> -->
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+      <script src="script.js"></script>
 </body>
 
 </html>
