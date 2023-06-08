@@ -90,3 +90,46 @@ body,h2,h3,h4,h5,h6 {
 /* .txp{
     font-size: smaller;
 } */
+
+/* Estilo do modal */
+.modal {
+    display: none; /* Por padrão, o modal fica oculto */
+    position: fixed; /* Faz com que o modal seja posicionado em relação à janela do navegador */
+    z-index: 1; /* Define a ordem de empilhamento do modal (acima de outros elementos) */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilita a rolagem caso o conteúdo do modal seja maior do que a janela do navegador */
+    background-color: rgba(0,0,0,0.4); /* Cor de fundo semi-transparente */
+  }
+  
+  /* Estilo do conteúdo do modal */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* Centraliza o modal verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* Estilo do botão de fechar */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.modalimg{
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
